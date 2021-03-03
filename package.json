@@ -1,0 +1,49 @@
+{
+    "name": "react-skeleton",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "dev": "webpack serve",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "standard",
+        "lint-fix": "standard --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+    },
+    "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+    "devDependencies": {
+        "html-webpack-plugin": "^5.2.0",
+        "standard": "^16.0.3",
+        "webpack": "^5.24.2",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2",
+        "wepack-cli": "0.0.1-security"
+    },
+    "dependencies": {
+        "@babel/core": "^7.13.8",
+        "@babel/preset-env": "^7.13.9",
+        "@babel/preset-react": "^7.12.13",
+        "babel-loader": "^8.2.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "standard": {
+        "ignore": [
+            "/api/**"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "./node_modules/standard/eslintrc.json"
+        ]
+    }
+}
