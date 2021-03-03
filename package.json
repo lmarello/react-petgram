@@ -34,7 +34,9 @@
         "@babel/preset-react": "^7.12.13",
         "babel-loader": "^8.2.2",
         "react": "^17.0.1",
-        "react-dom": "^17.0.1"
+        "react-dom": "^17.0.1",
+        "react-icons": "^4.2.0",
+        "styled-components": "^5.2.1"
     },
     "standard": {
         "ignore": [
