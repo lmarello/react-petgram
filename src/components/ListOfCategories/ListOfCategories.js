@@ -1,9 +1,13 @@
 import React from 'react'
 import { Category } from '../Category'
 import { List, Item } from './ListOfCategories.styles'
-import { categories } from '../../../api/db.json'
+import { useCategoriesData } from '../../hooks/useCategoriesData'
 
 export const ListOfCategories = () => {
+  const { categories, loading } = useCategoriesData()
+
+  if (loading) return <div>Cargando...</div>
+
   return (
     <List>
       {categories.map((category) => {
