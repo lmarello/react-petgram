@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
         html {
@@ -37,6 +37,9 @@ export const GlobalStyle = createGlobalStyle`
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
                 overflow-x: hidden;
                 min-height: 100vh;
-                padding-bottom: 10px;
+                padding: 0 6px 10px 6px;
         }
       `
+export const AppWrapper = styled.div`
+  margin-top: 95px;
+`
